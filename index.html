@@ -19,11 +19,37 @@
 	<h2>indeks</h2>
 	
 	<div id="g_id_onload"
-	     data-client_id="1094471746392-qcslfh7n4dk2jsd4eiagv8n9sq7o86do.apps.googleusercontent.com"
-	     data-context="signin"
-	     data-callback="onSignIn"
-	     data-auto_select="true"
-	     data-itp_support="true">
-	</div>
+	data-client_id="1094471746392-qcslfh7n4dk2jsd4eiagv8n9sq7o86do.apps.googleusercontent.com"
+	data-context="signin"
+	data-ux_mode="popup"
+	data-callback="onSignIn"
+	data-itp_support="true">
+</div>
+
+<div class="g_id_signin"
+	data-type="standard"
+	data-shape="pill"
+	data-theme="outline"
+	data-text="signin_with"
+	data-size="large"
+	data-logo_alignment="left">
+</div>
+
+<script>
+  function onSignIn(authResult) {
+  if (authResult['status']['signed_in'] && authResult['status']['method'] == 'PROMPT') {
+      console.log('User clicked on the sign in button. Do your staff here.');
+  } else if (authResult['status']['signed_in']) {
+      // This is called when user is signed in to Google but hasn't clicked on the button.
+      console.log('This is called when user is signed in to Google but hasnt clicked on the button');
+  } else {
+      console.log('Update the app to reflect a signed out user');
+	  // Possible error values:
+      // "user_signed_out" - User is signed-out
+      // "access_denied" - User denied access to your app
+      // "immediate_failed" - Could not automatically log in the user
+      console.log('Sign-in state: ' + authResult['error']);
+  }
+</script>
 </body>
 </html>
