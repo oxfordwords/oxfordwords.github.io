@@ -35,6 +35,7 @@ function getRandomWord() {
 function nextWord(sleep) {
     const nextWord = getRandomWord();
     setTimeout(function () {
+        speak(nextWord);
         let url = '/' + nextWord + '.html';
         window.history.pushState("", "", url);
         window.location.replace(url);
@@ -203,9 +204,12 @@ function beep(timeout, frequency) {
     }, timeout);
 }
 
-function speak() {
+function speak(word = null) {
+    if (word === null) {
+        word = getWord();
+    }
+    utterance.text = word;
     utterance.lang = 'en-US';
-    utterance.text = getWord();
     console.log(utterance);
     window.speechSynthesis.speak(utterance);
 }
@@ -247,7 +251,7 @@ getAnswerElement().addEventListener("keypress", function (event) {
 window.addEventListener('load', function () {
     printCount();
     printExercise();
-    speak();
+    // speak();
     getAnswerElement().focus();
 })
 
