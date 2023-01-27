@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">test</h1>
 
-<div>
-    <h1>test</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="sprawdzać;sprawdzać;testować;test;sprawdzian;egzamin;badanie laboratoryjne;badanie;precedens sądowy;spotkanie międzynarodowe;próbówka" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">sprawdzać</h2>;
+                <h2 class="translation">testować</h2>;
+                <h2 class="translation">test</h2>;
+                <h2 class="translation">sprawdzian</h2>;
+                <h2 class="translation">egzamin</h2>;
+                <h2 class="translation">badanie laboratoryjne</h2>;
+                <h2 class="translation">badanie</h2>;
+                <h2 class="translation">precedens sądowy</h2>;
+                <h2 class="translation">spotkanie międzynarodowe</h2>;
+                <h2 class="translation">próbówka</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

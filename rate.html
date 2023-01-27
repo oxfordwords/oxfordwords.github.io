@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">rate</h1>
 
-<div>
-    <h1>rate</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="tempo;stopa;wysokość;podatek lokalowy;mieć opinię;oceniać;zasługiwać;kurs wymiany" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">tempo</h2>;
+                <h2 class="translation">stopa</h2>;
+                <h2 class="translation">wysokość</h2>;
+                <h2 class="translation">podatek lokalowy</h2>;
+                <h2 class="translation">mieć opinię</h2>;
+                <h2 class="translation">oceniać</h2>;
+                <h2 class="translation">zasługiwać</h2>;
+                <h2 class="translation">kurs wymiany</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

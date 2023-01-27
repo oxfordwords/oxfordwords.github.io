@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">black</h1>
 
-<div>
-    <h1>black</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="czarny;czarny;Murzyn;czernić;bojkotować;czarno-biały;podbite oko;czarny rynek;stracić przytomność" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">czarny</h2>;
+                <h2 class="translation">Murzyn</h2>;
+                <h2 class="translation">czernić</h2>;
+                <h2 class="translation">bojkotować</h2>;
+                <h2 class="translation">czarno-biały</h2>;
+                <h2 class="translation">podbite oko</h2>;
+                <h2 class="translation">czarny rynek</h2>;
+                <h2 class="translation">stracić przytomność</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

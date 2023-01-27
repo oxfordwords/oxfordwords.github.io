@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">draft</h1>
 
-<div>
-    <h1>draft</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="szkic;wstępna wersja;pisać wstępną wersję;przenosić;odkomenderowywać;szybki niskiej jakości" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">szkic</h2>;
+                <h2 class="translation">wstępna wersja</h2>;
+                <h2 class="translation">pisać wstępną wersję</h2>;
+                <h2 class="translation">przenosić</h2>;
+                <h2 class="translation">odkomenderowywać</h2>;
+                <h2 class="translation">szybki niskiej jakości</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

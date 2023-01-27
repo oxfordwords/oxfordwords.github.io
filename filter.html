@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">filter</h1>
 
-<div>
-    <h1>filter</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="filtrować;przesączać się;przedzierać się;przedostawać się;filtr;odfiltrowywać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">filtrować</h2>;
+                <h2 class="translation">przesączać się</h2>;
+                <h2 class="translation">przedzierać się</h2>;
+                <h2 class="translation">przedostawać się</h2>;
+                <h2 class="translation">filtr</h2>;
+                <h2 class="translation">odfiltrowywać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

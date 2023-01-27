@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">support</h1>
 
-<div>
-    <h1>support</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="popierać;podpierać;podpierać;podtrzymywać;podtrzymywać;utrzymywać;poparcie;podpora;wspornik;pomoc finansowa" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">popierać</h2>;
+                <h2 class="translation">podpierać</h2>;
+                <h2 class="translation">podtrzymywać</h2>;
+                <h2 class="translation">utrzymywać</h2>;
+                <h2 class="translation">poparcie</h2>;
+                <h2 class="translation">podpora</h2>;
+                <h2 class="translation">wspornik</h2>;
+                <h2 class="translation">pomoc finansowa</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

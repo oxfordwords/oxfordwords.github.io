@@ -16,15 +16,27 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">freedom</h1>
 
-<div>
-    <h1>freedom</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="wolność;swoboda;uwolnienie;bojownik o wolność" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">wolność</h2>;
+                <h2 class="translation">swoboda</h2>;
+                <h2 class="translation">uwolnienie</h2>;
+                <h2 class="translation">bojownik o wolność</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

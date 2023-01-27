@@ -16,15 +16,30 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">capacity</h1>
 
-<div>
-    <h1>capacity</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="pojemność;zdolność;możliwości;wydajność;moc;moc produkcyjna;moc przerobowa" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">pojemność</h2>;
+                <h2 class="translation">zdolność</h2>;
+                <h2 class="translation">możliwości</h2>;
+                <h2 class="translation">wydajność</h2>;
+                <h2 class="translation">moc</h2>;
+                <h2 class="translation">moc produkcyjna</h2>;
+                <h2 class="translation">moc przerobowa</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

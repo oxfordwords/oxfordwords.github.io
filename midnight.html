@@ -16,15 +16,27 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">midnight</h1>
 
-<div>
-    <h1>midnight</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="północ;nocny;przebiegający w środku nocy;w środku nocy" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">północ</h2>;
+                <h2 class="translation">nocny</h2>;
+                <h2 class="translation">przebiegający w środku nocy</h2>;
+                <h2 class="translation">w środku nocy</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

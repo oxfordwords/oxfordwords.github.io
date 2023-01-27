@@ -16,15 +16,32 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">guide</h1>
 
-<div>
-    <h1>guide</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="przewodnik turystyczny;przewodnik;doraźna pomoc;orientacja;harcerka;oprowadzać;prowadzić;kierować się;kierować" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">przewodnik turystyczny</h2>;
+                <h2 class="translation">przewodnik</h2>;
+                <h2 class="translation">doraźna pomoc</h2>;
+                <h2 class="translation">orientacja</h2>;
+                <h2 class="translation">harcerka</h2>;
+                <h2 class="translation">oprowadzać</h2>;
+                <h2 class="translation">prowadzić</h2>;
+                <h2 class="translation">kierować się</h2>;
+                <h2 class="translation">kierować</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

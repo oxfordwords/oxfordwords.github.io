@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">skip</h1>
 
-<div>
-    <h1>skip</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="podskakiwać tanecznie;podskakiwać;hasać;skakać na skakance;skakać;pomijać;opuszczać;podskakiwanie" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">podskakiwać tanecznie</h2>;
+                <h2 class="translation">podskakiwać</h2>;
+                <h2 class="translation">hasać</h2>;
+                <h2 class="translation">skakać na skakance</h2>;
+                <h2 class="translation">skakać</h2>;
+                <h2 class="translation">pomijać</h2>;
+                <h2 class="translation">opuszczać</h2>;
+                <h2 class="translation">podskakiwanie</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

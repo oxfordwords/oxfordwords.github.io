@@ -16,15 +16,38 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">string</h1>
 
-<div>
-    <h1>string</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="sznurek;linka;sznur;szereg;ciąg;struna;łańcuch znaków;łańcuch;nawlekać;naciągać;fasolka szparagowa;rozciągać się;zestawiać;składać razem;wieszać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">sznurek</h2>;
+                <h2 class="translation">linka</h2>;
+                <h2 class="translation">sznur</h2>;
+                <h2 class="translation">szereg</h2>;
+                <h2 class="translation">ciąg</h2>;
+                <h2 class="translation">struna</h2>;
+                <h2 class="translation">łańcuch znaków</h2>;
+                <h2 class="translation">łańcuch</h2>;
+                <h2 class="translation">nawlekać</h2>;
+                <h2 class="translation">naciągać</h2>;
+                <h2 class="translation">fasolka szparagowa</h2>;
+                <h2 class="translation">rozciągać się</h2>;
+                <h2 class="translation">zestawiać</h2>;
+                <h2 class="translation">składać razem</h2>;
+                <h2 class="translation">wieszać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

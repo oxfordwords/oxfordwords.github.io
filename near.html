@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">near</h1>
 
-<div>
-    <h1>near</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="bliski;blisko;prawie;zbliżać się;dochodzić;Bliski Wschód" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">bliski</h2>;
+                <h2 class="translation">blisko</h2>;
+                <h2 class="translation">prawie</h2>;
+                <h2 class="translation">zbliżać się</h2>;
+                <h2 class="translation">dochodzić</h2>;
+                <h2 class="translation">Bliski Wschód</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

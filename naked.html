@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">naked</h1>
 
-<div>
-    <h1>naked</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="nagi;goły;nieosłonięty;widoczny gołym okiem;odkryty" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">nagi</h2>;
+                <h2 class="translation">goły</h2>;
+                <h2 class="translation">nieosłonięty</h2>;
+                <h2 class="translation">widoczny gołym okiem</h2>;
+                <h2 class="translation">odkryty</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

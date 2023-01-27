@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">discrimination</h1>
 
-<div>
-    <h1>discrimination</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="dyskryminacja;rozróżnianie;przenikliwość;dobry smak;smak" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">dyskryminacja</h2>;
+                <h2 class="translation">rozróżnianie</h2>;
+                <h2 class="translation">przenikliwość</h2>;
+                <h2 class="translation">dobry smak</h2>;
+                <h2 class="translation">smak</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

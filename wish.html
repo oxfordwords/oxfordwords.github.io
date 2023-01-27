@@ -16,15 +16,30 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">wish</h1>
 
-<div>
-    <h1>wish</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="życzenie;pragnienie;pragnąć;życzyć sobie;chcieć;żałować;życzyć" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">życzenie</h2>;
+                <h2 class="translation">pragnienie</h2>;
+                <h2 class="translation">pragnąć</h2>;
+                <h2 class="translation">życzyć sobie</h2>;
+                <h2 class="translation">chcieć</h2>;
+                <h2 class="translation">żałować</h2>;
+                <h2 class="translation">życzyć</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

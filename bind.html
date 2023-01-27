@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">bind</h1>
 
-<div>
-    <h1>bind</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="wiązać;związywać;przywiązywać;zobowiązywać;oprawiać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">wiązać</h2>;
+                <h2 class="translation">związywać</h2>;
+                <h2 class="translation">przywiązywać</h2>;
+                <h2 class="translation">zobowiązywać</h2>;
+                <h2 class="translation">oprawiać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

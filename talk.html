@@ -16,15 +16,34 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">talk</h1>
 
-<div>
-    <h1>talk</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="mówić;rozmawiać;omawiać;gadać;plotkować;rozmowa;pogawędka;przekonywać;wyperswadować komuś;wyperswadować;omawiać;dyskutować" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">mówić</h2>;
+                <h2 class="translation">rozmawiać</h2>;
+                <h2 class="translation">omawiać</h2>;
+                <h2 class="translation">gadać</h2>;
+                <h2 class="translation">plotkować</h2>;
+                <h2 class="translation">rozmowa</h2>;
+                <h2 class="translation">pogawędka</h2>;
+                <h2 class="translation">przekonywać</h2>;
+                <h2 class="translation">wyperswadować komuś</h2>;
+                <h2 class="translation">wyperswadować</h2>;
+                <h2 class="translation">dyskutować</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

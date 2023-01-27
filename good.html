@@ -16,15 +16,34 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">good</h1>
 
-<div>
-    <h1>good</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="dobry;niezły;grzeczny;porządny;dobro;artykuły;towary;dzień dobry ;dobry wieczór;Wielki Piątek;dzień dobry ;pociąg towarowy" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">dobry</h2>;
+                <h2 class="translation">niezły</h2>;
+                <h2 class="translation">grzeczny</h2>;
+                <h2 class="translation">porządny</h2>;
+                <h2 class="translation">dobro</h2>;
+                <h2 class="translation">artykuły</h2>;
+                <h2 class="translation">towary</h2>;
+                <h2 class="translation">dzień dobry</h2>;
+                <h2 class="translation">dobry wieczór</h2>;
+                <h2 class="translation">Wielki Piątek</h2>;
+                <h2 class="translation">pociąg towarowy</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

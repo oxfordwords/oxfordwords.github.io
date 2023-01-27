@@ -16,15 +16,32 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">failure</h1>
 
-<div>
-    <h1>failure</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="niepowodzenie;fiasko;niewypełnienie;brak;niesprawność;krach;załamanie się;pechowiec;nieudacznik" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">niepowodzenie</h2>;
+                <h2 class="translation">fiasko</h2>;
+                <h2 class="translation">niewypełnienie</h2>;
+                <h2 class="translation">brak</h2>;
+                <h2 class="translation">niesprawność</h2>;
+                <h2 class="translation">krach</h2>;
+                <h2 class="translation">załamanie się</h2>;
+                <h2 class="translation">pechowiec</h2>;
+                <h2 class="translation">nieudacznik</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

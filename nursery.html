@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">nursery</h1>
 
-<div>
-    <h1>nursery</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="przedszkole;szkółka leśna;szkółka;przedszkolny;wierszyk dziecięcy;przedszkole" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">przedszkole</h2>;
+                <h2 class="translation">szkółka leśna</h2>;
+                <h2 class="translation">szkółka</h2>;
+                <h2 class="translation">przedszkolny</h2>;
+                <h2 class="translation">wierszyk dziecięcy</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

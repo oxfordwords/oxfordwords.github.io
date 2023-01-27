@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">bitter</h1>
 
-<div>
-    <h1>bitter</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="gorzki;rozgoryczony;przykry;zacięty;zapiekły;przenikliwy;piwo gorzkie;piwo" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">gorzki</h2>;
+                <h2 class="translation">rozgoryczony</h2>;
+                <h2 class="translation">przykry</h2>;
+                <h2 class="translation">zacięty</h2>;
+                <h2 class="translation">zapiekły</h2>;
+                <h2 class="translation">przenikliwy</h2>;
+                <h2 class="translation">piwo gorzkie</h2>;
+                <h2 class="translation">piwo</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

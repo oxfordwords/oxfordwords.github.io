@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">join</h1>
 
-<div>
-    <h1>join</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="łączyć się;łączyć;stawać;wstępować;połączenie;dołączać się do;zaciągać się;wstępować do wojska;łączyć" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">łączyć się</h2>;
+                <h2 class="translation">łączyć</h2>;
+                <h2 class="translation">stawać</h2>;
+                <h2 class="translation">wstępować</h2>;
+                <h2 class="translation">połączenie</h2>;
+                <h2 class="translation">dołączać się do</h2>;
+                <h2 class="translation">zaciągać się</h2>;
+                <h2 class="translation">wstępować do wojska</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

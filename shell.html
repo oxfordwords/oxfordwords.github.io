@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">shell</h1>
 
-<div>
-    <h1>shell</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="skorupka;skorupa;muszla;szkielet;konstrukcja;pocisk;interfejs między użytkownikiem a systemem operacyjnym;interfejs;ostrzeliwać;łuskać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">skorupka</h2>;
+                <h2 class="translation">skorupa</h2>;
+                <h2 class="translation">muszla</h2>;
+                <h2 class="translation">szkielet</h2>;
+                <h2 class="translation">konstrukcja</h2>;
+                <h2 class="translation">pocisk</h2>;
+                <h2 class="translation">interfejs między użytkownikiem a systemem operacyjnym</h2>;
+                <h2 class="translation">interfejs</h2>;
+                <h2 class="translation">ostrzeliwać</h2>;
+                <h2 class="translation">łuskać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">lunch</h1>
 
-<div>
-    <h1>lunch</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="lekki obiad;obiad;lunch;spożywać obiad;przerwa obiadowa;pora obiadowa" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">lekki obiad</h2>;
+                <h2 class="translation">obiad</h2>;
+                <h2 class="translation">lunch</h2>;
+                <h2 class="translation">spożywać obiad</h2>;
+                <h2 class="translation">przerwa obiadowa</h2>;
+                <h2 class="translation">pora obiadowa</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

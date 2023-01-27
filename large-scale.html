@@ -16,15 +16,25 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">large-scale</h1>
 
-<div>
-    <h1>large-scale</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="na dużą skalę;o dużej skali" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">na dużą skalę</h2>;
+                <h2 class="translation">o dużej skali</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

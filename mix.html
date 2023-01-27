@@ -16,15 +16,32 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">mix</h1>
 
-<div>
-    <h1>mix</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="zmieszać;mieszać;przyrządzać;łączyć;przestawać;mieszanka;proszek;połączenie;mieszać;mylić" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">zmieszać</h2>;
+                <h2 class="translation">mieszać</h2>;
+                <h2 class="translation">przyrządzać</h2>;
+                <h2 class="translation">łączyć</h2>;
+                <h2 class="translation">przestawać</h2>;
+                <h2 class="translation">mieszanka</h2>;
+                <h2 class="translation">proszek</h2>;
+                <h2 class="translation">połączenie</h2>;
+                <h2 class="translation">mylić</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

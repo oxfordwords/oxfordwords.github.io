@@ -16,15 +16,30 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">cloud</h1>
 
-<div>
-    <h1>cloud</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="chmura;zachmurzenie;kłąb;chmurzyć się;pokrywać kłębami;zaciemniać;zachmurzać się" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">chmura</h2>;
+                <h2 class="translation">zachmurzenie</h2>;
+                <h2 class="translation">kłąb</h2>;
+                <h2 class="translation">chmurzyć się</h2>;
+                <h2 class="translation">pokrywać kłębami</h2>;
+                <h2 class="translation">zaciemniać</h2>;
+                <h2 class="translation">zachmurzać się</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

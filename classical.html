@@ -16,15 +16,27 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">classical</h1>
 
-<div>
-    <h1>classical</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="klasyczny;tradycyjny;klasyczny;poważny;starożytny" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">klasyczny</h2>;
+                <h2 class="translation">tradycyjny</h2>;
+                <h2 class="translation">poważny</h2>;
+                <h2 class="translation">starożytny</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

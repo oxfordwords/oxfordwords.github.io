@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">air</h1>
 
-<div>
-    <h1>air</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="powietrze;charakter;wygłaszać;wietrzyć;nadmuchiwany;siły powietrzne;stewardesa;nalot;budynek lotów;terminal lotniczy" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">powietrze</h2>;
+                <h2 class="translation">charakter</h2>;
+                <h2 class="translation">wygłaszać</h2>;
+                <h2 class="translation">wietrzyć</h2>;
+                <h2 class="translation">nadmuchiwany</h2>;
+                <h2 class="translation">siły powietrzne</h2>;
+                <h2 class="translation">stewardesa</h2>;
+                <h2 class="translation">nalot</h2>;
+                <h2 class="translation">budynek lotów</h2>;
+                <h2 class="translation">terminal lotniczy</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

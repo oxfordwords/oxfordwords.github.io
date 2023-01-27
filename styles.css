@@ -1,4 +1,4 @@
-div {
+#page {
     height: 200px;
     width: 400px;
     /*background: black;*/
@@ -12,14 +12,36 @@ div {
     text-align: center;
 }
 
-input {
-    padding: 5px 5px 5px 0px;
+#answer {
+    padding: 5px 5px 5px 0;
     width: 100%;
     text-align: center;
     outline: none;
     border: 1px grey solid;
 }
 
-#description {
-    font-size: small;
+#result {
+    display: none;
+}
+
+#buttons {
+    width: 100%;
+    text-align: right;
+}
+
+#buttons .done {
+    color: green;
+}
+
+.translation {
+    display: inline;
+    font-size: medium;
+    font-style: unset;
+}
+
+.translation.correct {
+    color: #0d47a1;
+}
+.translation.similar {
+    color: #764fc2;
 }

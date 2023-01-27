@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">approach</h1>
 
-<div>
-    <h1>approach</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="zbliżać się;nadchodzić;zgłaszać się;podchodzić do;dochodzić;nadejście;dojście;dojazd;zgłoszenie się;podejście" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">zbliżać się</h2>;
+                <h2 class="translation">nadchodzić</h2>;
+                <h2 class="translation">zgłaszać się</h2>;
+                <h2 class="translation">podchodzić do</h2>;
+                <h2 class="translation">dochodzić</h2>;
+                <h2 class="translation">nadejście</h2>;
+                <h2 class="translation">dojście</h2>;
+                <h2 class="translation">dojazd</h2>;
+                <h2 class="translation">zgłoszenie się</h2>;
+                <h2 class="translation">podejście</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

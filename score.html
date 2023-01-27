@@ -16,15 +16,36 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">score</h1>
 
-<div>
-    <h1>score</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="zdobywać punkty;zdobywać;osiągać;zdobywać;mieć przewagę;górować;nacinać;karbować;liczyć punkty;wynik;rezultat;masa;duża ilość;partytura" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">zdobywać punkty</h2>;
+                <h2 class="translation">zdobywać</h2>;
+                <h2 class="translation">osiągać</h2>;
+                <h2 class="translation">mieć przewagę</h2>;
+                <h2 class="translation">górować</h2>;
+                <h2 class="translation">nacinać</h2>;
+                <h2 class="translation">karbować</h2>;
+                <h2 class="translation">liczyć punkty</h2>;
+                <h2 class="translation">wynik</h2>;
+                <h2 class="translation">rezultat</h2>;
+                <h2 class="translation">masa</h2>;
+                <h2 class="translation">duża ilość</h2>;
+                <h2 class="translation">partytura</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

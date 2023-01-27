@@ -16,15 +16,32 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">scream</h1>
 
-<div>
-    <h1>scream</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="krzyczeć przenikliwie;krzyczeć;wykrzykiwać;hałasować rozdzierająco;hałasować;krzyk;wrzask;przenikliwy hałas;hałas" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">krzyczeć przenikliwie</h2>;
+                <h2 class="translation">krzyczeć</h2>;
+                <h2 class="translation">wykrzykiwać</h2>;
+                <h2 class="translation">hałasować rozdzierająco</h2>;
+                <h2 class="translation">hałasować</h2>;
+                <h2 class="translation">krzyk</h2>;
+                <h2 class="translation">wrzask</h2>;
+                <h2 class="translation">przenikliwy hałas</h2>;
+                <h2 class="translation">hałas</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

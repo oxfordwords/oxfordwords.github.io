@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">or</h1>
 
-<div>
-    <h1>or</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="lub;albo;czy;ponieważ;inaczej" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">lub</h2>;
+                <h2 class="translation">albo</h2>;
+                <h2 class="translation">czy</h2>;
+                <h2 class="translation">ponieważ</h2>;
+                <h2 class="translation">inaczej</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

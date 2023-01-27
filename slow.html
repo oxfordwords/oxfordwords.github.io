@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">slow</h1>
 
-<div>
-    <h1>slow</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="wolny;powolny;ociężały umysłowo;niemrawy;wolno;powoli;zwalniać;zwalniać;zwolniony;zwalniać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">wolny</h2>;
+                <h2 class="translation">powolny</h2>;
+                <h2 class="translation">ociężały umysłowo</h2>;
+                <h2 class="translation">niemrawy</h2>;
+                <h2 class="translation">wolno</h2>;
+                <h2 class="translation">powoli</h2>;
+                <h2 class="translation">zwalniać</h2>;
+                <h2 class="translation">zwolniony</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

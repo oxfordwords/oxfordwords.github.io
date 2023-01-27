@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">phrase</h1>
 
-<div>
-    <h1>phrase</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="zwrot;idiom;fraza;ubierać w słowa;frazować;rozmówki" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">zwrot</h2>;
+                <h2 class="translation">idiom</h2>;
+                <h2 class="translation">fraza</h2>;
+                <h2 class="translation">ubierać w słowa</h2>;
+                <h2 class="translation">frazować</h2>;
+                <h2 class="translation">rozmówki</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

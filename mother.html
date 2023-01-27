@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">mother</h1>
 
-<div>
-    <h1>mother</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="matka;matkować;opiekować się jak matka;ojczyzna;język ojczysty" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">matka</h2>;
+                <h2 class="translation">matkować</h2>;
+                <h2 class="translation">opiekować się jak matka</h2>;
+                <h2 class="translation">ojczyzna</h2>;
+                <h2 class="translation">język ojczysty</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

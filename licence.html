@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">licence</h1>
 
-<div>
-    <h1>licence</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="licencja;koncesja;prawo jazdy;prawo;zezwolenie;abonament" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">licencja</h2>;
+                <h2 class="translation">koncesja</h2>;
+                <h2 class="translation">prawo jazdy</h2>;
+                <h2 class="translation">prawo</h2>;
+                <h2 class="translation">zezwolenie</h2>;
+                <h2 class="translation">abonament</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

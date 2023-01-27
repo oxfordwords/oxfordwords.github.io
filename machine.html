@@ -16,15 +16,28 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">machine</h1>
 
-<div>
-    <h1>machine</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="maszyna;aparat;obrabiać maszynowo;obrabiać;karabin maszynowy" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">maszyna</h2>;
+                <h2 class="translation">aparat</h2>;
+                <h2 class="translation">obrabiać maszynowo</h2>;
+                <h2 class="translation">obrabiać</h2>;
+                <h2 class="translation">karabin maszynowy</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

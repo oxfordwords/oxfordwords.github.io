@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">plot</h1>
 
-<div>
-    <h1>plot</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="spisek;fabuła;akcja;działka;spiskować;konspirować;wyznaczać;przedstawiać graficznie;kreślić;wykreślać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">spisek</h2>;
+                <h2 class="translation">fabuła</h2>;
+                <h2 class="translation">akcja</h2>;
+                <h2 class="translation">działka</h2>;
+                <h2 class="translation">spiskować</h2>;
+                <h2 class="translation">konspirować</h2>;
+                <h2 class="translation">wyznaczać</h2>;
+                <h2 class="translation">przedstawiać graficznie</h2>;
+                <h2 class="translation">kreślić</h2>;
+                <h2 class="translation">wykreślać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

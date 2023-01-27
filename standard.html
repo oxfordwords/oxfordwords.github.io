@@ -16,15 +16,32 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">standard</h1>
 
-<div>
-    <h1>standard</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="poziom;kryterium;miara;standard;zasada;standardowy;lampa stojąca;stopa życiowa;poziom życia" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">poziom</h2>;
+                <h2 class="translation">kryterium</h2>;
+                <h2 class="translation">miara</h2>;
+                <h2 class="translation">standard</h2>;
+                <h2 class="translation">zasada</h2>;
+                <h2 class="translation">standardowy</h2>;
+                <h2 class="translation">lampa stojąca</h2>;
+                <h2 class="translation">stopa życiowa</h2>;
+                <h2 class="translation">poziom życia</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

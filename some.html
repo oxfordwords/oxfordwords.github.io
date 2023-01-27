@@ -16,15 +16,35 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">some</h1>
 
-<div>
-    <h1>some</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="trochę;nieco;niektórzy;niektóre;dość dużo;pewien;jakiś;któryś;około;jakieś;niezły;piękny" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">trochę</h2>;
+                <h2 class="translation">nieco</h2>;
+                <h2 class="translation">niektórzy</h2>;
+                <h2 class="translation">niektóre</h2>;
+                <h2 class="translation">dość dużo</h2>;
+                <h2 class="translation">pewien</h2>;
+                <h2 class="translation">jakiś</h2>;
+                <h2 class="translation">któryś</h2>;
+                <h2 class="translation">około</h2>;
+                <h2 class="translation">jakieś</h2>;
+                <h2 class="translation">niezły</h2>;
+                <h2 class="translation">piękny</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

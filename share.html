@@ -16,15 +16,31 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">share</h1>
 
-<div>
-    <h1>share</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="dzielić się;dzielić;podzielić się;podzielić;podzielać;część;udział;akcja;podzielić" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">dzielić się</h2>;
+                <h2 class="translation">dzielić</h2>;
+                <h2 class="translation">podzielić się</h2>;
+                <h2 class="translation">podzielić</h2>;
+                <h2 class="translation">podzielać</h2>;
+                <h2 class="translation">część</h2>;
+                <h2 class="translation">udział</h2>;
+                <h2 class="translation">akcja</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

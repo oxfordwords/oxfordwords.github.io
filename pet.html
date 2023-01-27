@@ -16,15 +16,29 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">pet</h1>
 
-<div>
-    <h1>pet</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="zwierzę domowe;domowy;ulubiony;umiłowany;pieścić;pieścić się" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">zwierzę domowe</h2>;
+                <h2 class="translation">domowy</h2>;
+                <h2 class="translation">ulubiony</h2>;
+                <h2 class="translation">umiłowany</h2>;
+                <h2 class="translation">pieścić</h2>;
+                <h2 class="translation">pieścić się</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">model</h1>
 
-<div>
-    <h1>model</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="model;modelka;model;przykład;wzór;wzorowy;modelować;pracować jako modelka;pracować jako model;występować jako modelka;występować jako model" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">model</h2>;
+                <h2 class="translation">modelka</h2>;
+                <h2 class="translation">przykład</h2>;
+                <h2 class="translation">wzór</h2>;
+                <h2 class="translation">wzorowy</h2>;
+                <h2 class="translation">modelować</h2>;
+                <h2 class="translation">pracować jako modelka</h2>;
+                <h2 class="translation">pracować jako model</h2>;
+                <h2 class="translation">występować jako modelka</h2>;
+                <h2 class="translation">występować jako model</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

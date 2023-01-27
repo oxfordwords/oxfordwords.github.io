@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">down</h1>
 
-<div>
-    <h1>down</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="w dole;w dół;na południu;na południe;do końca;zwalić na ziemię;zwalić;wychylać;przygnębiony;puch" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">w dole</h2>;
+                <h2 class="translation">w dół</h2>;
+                <h2 class="translation">na południu</h2>;
+                <h2 class="translation">na południe</h2>;
+                <h2 class="translation">do końca</h2>;
+                <h2 class="translation">zwalić na ziemię</h2>;
+                <h2 class="translation">zwalić</h2>;
+                <h2 class="translation">wychylać</h2>;
+                <h2 class="translation">przygnębiony</h2>;
+                <h2 class="translation">puch</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>

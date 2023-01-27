@@ -16,15 +16,33 @@
     gtag('config', 'G-9WVCM03XJZ');
 </script>
 <body>
+<header>
+    <div id="buttons"><button type="button" id="next-exercise">Next exercise</button></div>
+    <hr>
+    <div id="exercise"></div>
+</header>
+<div id="page">
+    <h1 id="word">even</h1>
 
-<div>
-    <h1>even</h1>
-
-    <p id="count"></p>
     <label>
-        <input id="answer" data-word="nawet;jeszcze;stały;równy;równomierny;wyrównany;równie prawdopodobny;pięćdziesięcioprocentowy;parzysty;wyrównywać" type='text' value=""/>
+        <input name="answer" id="answer" type='text' value="" />
     </label>
-    <p id="description"></p></div>
+
+
+    <div id="result">
+        <p id="count"></p>
+                <h2 class="translation">nawet</h2>;
+                <h2 class="translation">jeszcze</h2>;
+                <h2 class="translation">stały</h2>;
+                <h2 class="translation">równy</h2>;
+                <h2 class="translation">równomierny</h2>;
+                <h2 class="translation">wyrównany</h2>;
+                <h2 class="translation">równie prawdopodobny</h2>;
+                <h2 class="translation">pięćdziesięcioprocentowy</h2>;
+                <h2 class="translation">parzysty</h2>;
+                <h2 class="translation">wyrównywać</h2>;
+            </div>
+</div>
 
 <script src="speech.js"></script>
 <script src="words.js"></script>
